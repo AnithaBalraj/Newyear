@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.pinimg.com/736x/91/ba/c5/91bac5869959966679598b2bed2dde1f.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+small{
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: coral;
+}
+.countdown{
+    display: flex;
+}
+
+.countdown .time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+.year{
+    color: rgb(123, 240, 28);
+    position: absolute;
+    bottom: 0;
+    font-size: 60px;
+    opacity: 0.6;
+}
